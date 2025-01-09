@@ -7,9 +7,7 @@ void main() {
 }
 
 class App extends StatelessWidget {
-  var numData = 123;
-
-  App({super.key});
+  const App({super.key});
 
   @override
   Widget build(BuildContext context) {
