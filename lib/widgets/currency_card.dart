@@ -46,7 +46,7 @@ class CurrencyCard extends StatelessWidget {
                       fontWeight: FontWeight.w600,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 10,
                   ),
                   Row(
@@ -58,7 +58,7 @@ class CurrencyCard extends StatelessWidget {
                           fontSize: 24,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 10,
                       ),
                       Text(
@@ -77,7 +77,7 @@ class CurrencyCard extends StatelessWidget {
               Transform.scale(
                 scale: 2.2,
                 child: Transform.translate(
-                  offset: Offset(-5, 15),
+                  offset: const Offset(-5, 15),
                   child: Icon(
                     icon,
                     color: isInvested ? _blackColor : Colors.white,
